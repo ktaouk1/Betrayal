@@ -16,7 +16,7 @@ function setup() {
 		});
 		return json;
 	})();
-	console.log(characters);
+	console.log(characters.Heather_Granville.might);
 }
 
 function draw() {
