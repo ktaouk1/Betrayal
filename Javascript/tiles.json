@@ -2,10 +2,236 @@
 	"Abandoned_Room" : {
 		"location" : ["basement", "ground"],
 		"doors" : 4,
+		"type" : "omen"
+	},
+	"Attic" : {
+		"location" : ["upper"],
+		"doors" : 1,
 		"type" : "event"
 	},
-
-
-
-
+	"Balcony" : {
+		"location" : ["upper"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Ballroom" : {
+		"location" : ["ground"],
+		"doors" : 4,
+		"type" : "event"
+	},
+	"Basement_Landing" : {
+		"location" : [],
+		"doors" : 4,
+		"type" : ""
+	},
+	"Bedroom" : {
+		"location" : ["upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Bloody_Room" : {
+		"location" : ["ground", "upper"],
+		"doors" : 4,
+		"type" : "item"
+	},
+	"Catacombs" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Chapel" : {
+		"location" : ["ground", "upper"],
+		"doors" : 1,
+		"type" : "event"
+	},
+	"Charred_Room" : {
+		"location" : ["ground", "upper"],
+		"doors" : 4,
+		"type" : "omen"
+	},
+	"Chasm" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : ""
+	},
+	"Coal_Chute" : {
+		"location" : ["ground"],
+		"doors" : 1,
+		"type" : ""
+	},
+	"Collapsed_Room" : {
+		"location" : ["ground", "upper"],
+		"doors" : 4,
+		"type" : ""
+	},
+	"Conservatory" : {
+		"location" : ["ground", "upper"],
+		"doors" : 1,
+		"type" : "event"
+	},
+	"Creaky_Hallway" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 4,
+		"type" : ""
+	},
+	"Crypt" : {
+		"location" : ["basement"],
+		"doors" : 1,
+		"type" : "event"
+	},
+	"Dining_Room" : {
+		"location" : ["ground"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Dusty_Hallway" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 4,
+		"type" : ""
+	},
+	"Entrance_Hall" : {
+		"location" : [],
+		"doors" : 3,
+		"type" : ""
+	},
+	"Foyer" : {
+		"location" : [],
+		"doors" : 4,
+		"type" : ""
+	},
+	"Furnace_Room" : {
+		"location" : ["basement"],
+		"doors" : 3,
+		"type" : "omen"
+	},
+	"Gallery" : {
+		"location" : ["upper"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Game_Room" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 3,
+		"type" : "event"
+	},
+	"Gardens" : {
+		"location" : ["ground"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Grand_Staircase" : {
+		"location" : [],
+		"doors" : 2,
+		"type" : ""
+	},
+	"Graveyard" : {
+		"location" : ["ground"],
+		"doors" : 1,
+		"type" : "event"
+	},
+	"Gymnasium" : {
+		"location" : ["basement", "upper"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Junk_Room" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 4,
+		"type" : "omen"
+	},
+	"Kitchen" : {
+		"location" : ["basement", "ground"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Larder" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : "item"
+	},
+	"Library" : {
+		"location" : ["ground", "upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Master_Bedroom" : {
+		"location" : ["upper"],
+		"doors" : 2,
+		"type" : "omen"
+	},
+	"Mystic_Elevator" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 1,
+		"type" : ""
+	},
+	"Operating_Laboratory" : {
+		"location" : ["basement", "upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Organ_Room" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Patio" : {
+		"location" : ["ground"],
+		"doors" : 3,
+		"type" : "event"
+	},
+	"Pentagram_Chamber" : {
+		"location" : ["basement"],
+		"doors" : 1,
+		"type" : "omen"
+	},
+	"Research_Laboratory" : {
+		"location" : ["basement", "upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Servants_Quarters" : {
+		"location" : ["basement", "upper"],
+		"doors" : 4,
+		"type" : "omen"
+	},
+	"Stairs_From_Basement" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : ""
+	},
+	"Statuary_Corridor" : {
+		"location" : ["basement", "ground", "upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Storeroom" : {
+		"location" : ["basement", "upper"],
+		"doors" : 1,
+		"type" : "item"
+	},
+	"Tower" : {
+		"location" : ["upper"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Underground_Lake" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : "event"
+	},
+	"Upper_Landing" : {
+		"location" : [],
+		"doors" : 5,
+		"type" : ""
+	},
+	"Vault" : {
+		"location" : ["basement", "upper"],
+		"doors" : 1,
+		"type" : "event_item_item"
+	},
+	"Wine_Cellar" : {
+		"location" : ["basement"],
+		"doors" : 2,
+		"type" : "item"
+	}
 }
