@@ -1,0 +1,11 @@
+{
+	"Abandoned_Room" : {
+		"location" : ["basement", "ground"],
+		"doors" : 4,
+		"type" : "event"
+	},
+
+
+
+
+}

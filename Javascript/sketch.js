@@ -1,3 +1,9 @@
+/*
+	TODO:
+	->
+	->
+*/
+
 function setup() {
 	createCanvas(800, 800);
 	background(51);
@@ -16,7 +22,8 @@ function setup() {
 		});
 		return json;
 	})();
-	console.log(characters.Heather_Granville.might);
+	characters = Object.entries(characters);
+	console.log(characters);
 }
 
 function draw() {
