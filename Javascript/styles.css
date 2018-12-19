@@ -1,0 +1,47 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+canvas {
+	margin: auto;
+	border-radius: 8px;
+}
+
+.info {
+	position: absolute;
+	width: 500px;
+	height: 795px;
+	margin-left: 805px;
+	border-radius: 8px;
+	border-color: rgb(51, 51, 51);
+	border-width: medium;
+	border-style: solid;
+	background-color: #eee;
+}
+
+.content {
+	width: inherit;
+	height: inherit;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.title {
+	margin-bottom: 0;
+	color: rgb(51, 51, 51);
+	font-size: 28px;
+	font-family: serif;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}

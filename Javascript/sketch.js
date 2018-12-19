@@ -1,6 +1,6 @@
 /*
 	TODO:
-	-> Character stats starting indexes
+	->
 	-> Display floor landings, remove from stack
 */
 
@@ -60,8 +60,9 @@ function setup() {
 		}
 	}
 	rect(width/2, height/2, 70, 70, 7);
-	textSize(12);
-	text(landingZone[0], width/2-25, height/2-15);
+	textSize(8.5);
+	fill(255);
+	text(landingZone[0].replace(/\_/g, " "), width/2-25, height/2-15);
 }
 
 // Gets random tile from stack, given current floor
@@ -73,6 +74,32 @@ function getTile(floor) {
 			return tile;
 		}
 	}
+}
+
+// Display list of characters and their current stats
+function displayCharacters(player) {
+	// If specified, print player stats. Otherwise print all.
+	if (player == null) {
+		for (var i = 0; i < characters.length; i++) {
+			console.log(characters[i][0].replace(/\_/g, " ") + "'s current stats:");
+			console.log("Speed:", characters[i][1].speed[characters[i][1].speedIndex]);
+			console.log("Might:", characters[i][1].might[characters[i][1].mightIndex]);
+			console.log("Sanity:", characters[i][1].sanity[characters[i][1].sanityIndex]);
+			console.log("Knowledge:", characters[i][1].knowledge[characters[i][1].knowledgeIndex]);
+		}
+	} else {
+		console.log(player[0].replace(/\_/g, " ") + "'s current stats:");
+		console.log("Speed:", player[1].speed[player[1].speedIndex]);
+		console.log("Might:", player[1].might[player[1].mightIndex]);
+		console.log("Sanity:", player[1].sanity[player[1].sanityIndex]);
+		console.log("Knowledge:", player[1].knowledge[player[1].knowledgeIndex]);
+	}
+
+}
+
+// Damage the selected character's stat by a certain amount
+function damage(player, stat, amount) {
+	player[1][stat] = player[1][stat] - amount;
 }
 
 function draw() {
