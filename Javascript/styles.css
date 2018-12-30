@@ -1,9 +1,17 @@
 
+::-webkit-scrollbar {
+	width: 0px;
+	background: hidden;
+}
+
 body {
+	height: 100%;
+	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	overflow: hidden;
-	position: absolute;
+	position: relative;
+	/*transform: translate(15%, 8%);*/
 }
 
 canvas {
@@ -14,13 +22,33 @@ canvas {
 .info {
 	position: absolute;
 	width: 500px;
-	height: 795px;
+	height: 595px;
 	margin-left: 805px;
 	border-radius: 8px;
 	border-color: rgb(51, 51, 51);
 	border-width: medium;
 	border-style: solid;
 	background-color: #eee;
+	color: rgb(51, 51, 51);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.actions {
+	position: absolute;
+	width: 490px;
+	height: 180px;
+	margin-left: 805px;
+	margin-top: 605px;
+	border-radius: 8px;
+	border-color: rgb(51, 51, 51);
+	border-width: medium;
+	border-style: solid;
+	background-color: #eee;
+	color: rgb(51, 51, 51);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 5px;
 }
 
 .content {
@@ -37,11 +65,38 @@ canvas {
 	font-family: serif;
 }
 
+.news {
+	text-align: left;
+	padding: 10px;
+	white-space: pre-line;
+}
+
 hr {
 	border: 0;
 	height: 1px;
-	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+	background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+	background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+	background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+}
+
+/* Buttons */
+
+.players {
+	width: 98%;
+	height: 30px;
+	margin: 5px;
+}
+
+.theme {
+	display: inline-block;
+	position: absolute;
+	top: 810px;
+}
+
+.theme2 {
+	display: inline-block;
+	position: absolute;
+	top: 810px;
+	left: 55px;
 }
