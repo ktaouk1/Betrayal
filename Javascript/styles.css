@@ -22,11 +22,12 @@ canvas {
 .info {
 	position: absolute;
 	width: 500px;
-	height: 595px;
+	height: 540px;
 	margin-left: 805px;
-	border-radius: 8px;
+	margin-top: 55px;
+	border-radius: 0px 0px 8px 8px;
 	border-color: rgb(51, 51, 51);
-	border-width: medium;
+	border-width: 0px medium medium medium;
 	border-style: solid;
 	background-color: #eee;
 	color: rgb(51, 51, 51);
@@ -58,14 +59,30 @@ canvas {
 	text-align: center;
 }
 
+.heading {
+	position: absolute;
+	width: 500px;
+	height: 52px;
+	margin-left: 805px;
+	text-align: center;
+	border-radius: 8px 8px 0px 0px;
+	border-color: rgb(51, 51, 51);
+	border-width: medium medium 0px medium;
+	border-style: solid;
+	background-color: #eee;
+	color: rgb(51, 51, 51);
+}
+
 .title {
 	margin-bottom: 0;
 	color: rgb(51, 51, 51);
 	font-size: 28px;
 	font-family: serif;
+	line-height: 5px;
+	padding-bottom: 10px;
 }
 
-.news {
+.news, .actions2 {
 	text-align: left;
 	padding: 10px;
 	white-space: pre-line;
